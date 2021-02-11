@@ -110,11 +110,14 @@ a {
 }
 .hero-background {
   height: 600px;
+  max-width: 1600px;
   left: 0px;
   top: 80px;
   margin-left: auto;
   margin-right: auto;
-  background: var(--hero-footer-background);
+  background-image: url(../images-main/background-hero.png);
+  background-size: cover;
+  /* background: var(--hero-footer-background); */
   text-align: center;
   padding-top: 200px;
 }
@@ -457,4 +460,12 @@ a {
   border-bottom: 1px solid #ececec;
   margin-left: auto;
   margin-right: auto;
+}
+.item-svg {
+  margin-top: 2px;
+  width: 16px;
+  height: 12px;
+}
+.mail-link-header {
+  display: flex;
 }
