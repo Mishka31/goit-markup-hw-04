@@ -182,12 +182,19 @@ a {
   color: var(--paragraph-text);
 }
 .blocks-of-competence {
-  margin-top: 94px;
+  padding-top: 94px;
+}
+.we-doing-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.img-we-doing {
+  padding-top: 50px;
 }
 .what-we-doing {
   margin: 0px;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  /* margin-top: 94px;
+  margin-bottom: 50px; */
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -271,7 +278,7 @@ a {
   background: #f5f4fa;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
+  /* margin-top: 194px; */
 }
 .each-of-our-team {
   font-weight: 500;
@@ -410,7 +417,7 @@ a {
   margin-top: -30px;
   /* outline: 1px solid red; */
   padding-top: 14px;
-  padding-bottom: 104px;
+  padding-bottom: 94px;
 }
 .each-card {
   margin: 0px;
