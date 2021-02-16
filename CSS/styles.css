@@ -17,6 +17,7 @@ html {
   --hero-footer-background: #2f303a;
   --paragraph-text: #757575;
   --claer-white: #ffffff;
+  --img-color: #afb1b8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -306,7 +307,7 @@ a {
   color: var(--paragraph-text);
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .btn-nav-portfolio {
   font-weight: 500;
@@ -477,4 +478,56 @@ a {
 .phone-link-header {
   display: flex;
   align-items: center;
+}
+.background-for-svg {
+  background: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.svg-items-main {
+  width: 70px;
+  height: 70px;
+  margin-right: 0px;
+}
+.social-links-circle {
+  width: 20px;
+  height: 20px;
+  fill: var(--img-color);
+}
+.social-links {
+  /* margin: 0px;*/
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+.social-links-items {
+  margin-right: 10px;
+}
+.links-svg {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links-svg:hover,
+.links-svg:focus {
+  background-color: var(--navigation-link-focus);
+}
+.links-svg:hover svg,
+.links-svg:focus svg {
+  fill: var(--claer-white);
 }
