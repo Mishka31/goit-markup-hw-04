@@ -91,6 +91,7 @@ a {
   line-height: 1.141;
   letter-spacing: 0.02em;
   color: var(--links-header);
+  fill: var(--links-header);
 }
 .phone-link-header {
   font-weight: 500;
@@ -99,14 +100,17 @@ a {
   letter-spacing: 0.02em;
   color: var(--links-header);
   margin-left: 50px;
+  fill: var(--links-header);
 }
 .phone-link-header:hover,
 .phone-link-header:focus {
   color: var(--navigation-link-focus);
+  fill: var(--navigation-link-focus);
 }
 .mail-link-header:hover,
 .mail-link-header:focus {
   color: var(--navigation-link-focus);
+  fill: var(--navigation-link-focus);
 }
 .hero-background {
   height: 600px;
@@ -463,11 +467,14 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.item-svg {
-  margin-top: 2px;
-  width: 16px;
-  height: 12px;
+.item-svg-mail {
+  margin-right: 10px;
 }
 .mail-link-header {
   display: flex;
+  align-items: center;
+}
+.phone-link-header {
+  display: flex;
+  align-items: center;
 }
