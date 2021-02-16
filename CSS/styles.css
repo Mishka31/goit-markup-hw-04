@@ -266,7 +266,7 @@ a {
 }
 .our-team {
   margin: 0px;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
@@ -281,6 +281,7 @@ a {
   background: #f5f4fa;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 94px;
   /* margin-top: 194px; */
 }
 .each-of-our-team {
@@ -375,6 +376,7 @@ a {
 }
 .main-portfolio {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .btn1 {
   width: 73px;
@@ -420,7 +422,7 @@ a {
   margin-top: -30px;
   /* outline: 1px solid red; */
   padding-top: 14px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 .each-card {
   margin: 0px;
