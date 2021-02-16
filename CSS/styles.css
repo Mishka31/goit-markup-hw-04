@@ -349,7 +349,6 @@ a {
   margin-right: auto;
   margin-left: auto;
   padding: 0px;
-  width: 1200px;
   padding: 0px;
   margin: 0px;
   display: flex;
@@ -530,4 +529,27 @@ a {
 .links-svg:hover svg,
 .links-svg:focus svg {
   fill: var(--claer-white);
+}
+.border-for-logo-clients {
+  /* content: "";
+  background-color: transparent; */
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--img-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-svg-clients {
+  fill: var(--img-color);
+}
+.svg-list-clients {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.title-clients {
+  margin: 0px;
 }
